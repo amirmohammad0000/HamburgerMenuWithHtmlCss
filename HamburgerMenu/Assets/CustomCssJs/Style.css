@@ -1,0 +1,90 @@
+/************************************************************************/ /* Start Style All */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  user-select: none;
+}
+/************************************************************************/ /* End Style All */
+
+/************************************************************************/ /* Start Style Hamburger Menu */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_hamburger_menu {
+  position: relative;
+  width: 150px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.image_bread_top {
+  position: absolute;
+  top: 0;
+  width: 150px;
+  height: 150px;
+  z-index: 6;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.image_tomato {
+  position: absolute;
+  top: 25px;
+  width: 150px;
+  height: 150px;
+  z-index: 5;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.image_vegetables {
+  position: absolute;
+  top: 45px;
+  width: 150px;
+  height: 150px;
+  z-index: 4;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.image_cheese {
+  position: absolute;
+  top: 60px;
+  width: 150px;
+  height: 150px;
+  z-index: 3;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.image_meat {
+  position: absolute;
+  top: 75px;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.image_bread_bottom {
+  position: absolute;
+  top: 90px;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+/************************************************************************/ /* End Style Hamburger Menu */
